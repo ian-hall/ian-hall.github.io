@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="stylesheet" href="stylesheets/bootstrap.space.mod.css" title="base">
+        <link rel="stylesheet" href="stylesheets/site.css" title="base">
+        <link rel="alt stylesheet" href="stylesheets/219.css" title="219">
+        <link rel="alt stylesheet" href="stylesheets/219site.css" title="219">
+        <title>ian-hall.github.io</title>
+    </head>
+    <body onload="set_style_from_cookie()">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">{ian's github.io page}</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="about.html">about ian</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://www.github.com/ian-hall" id="gitlink"><img src="images/blacktocat.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <h2>About Ian</h2>
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="col-md-12">
+                        <p class="lead">
+                            Hi I'm Ian. This is some of my stuff. Thanks for looking.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <p class="text-footer">
+                        <ul class="list-inline">
+                            <li>&copy; 2016 - <a href="http://www.github.com/ian-hall">Ian Hall</a></li>
+                            <span class="btn-group pull-right">
+                                <button type="submit" onclick="switch_style('base');return false;" name="theme" value="Light Theme" id="base" class="btn btn-default">Light</button>
+                                <button type="submit" onclick="switch_style('219');return false;" name="theme" value="Dark Theme" id="219" class="btn btn-default">Dark</button>
+                            </span>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="Scripts/jquery-2.2.3.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+        <script src="Scripts/respond.min.js"></script>
+        <script src="Scripts/themeswitch.js"></script>
+    </body>
+</html>
