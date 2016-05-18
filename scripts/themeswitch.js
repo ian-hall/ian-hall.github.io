@@ -1,7 +1,7 @@
 ﻿//TODO: Set domain **before** I push to github
 var style_cookie_name = "style";
 var style_cookie_duration = 30;
-var style_domain = "";
+var style_domain = "imhall.com";
 
 function switch_style(css_title) {
     // You may use this script on your site free of charge provided
