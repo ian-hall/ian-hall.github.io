@@ -354,7 +354,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Courrier New', Consolas;
+  font-family: 'Courier New', Consolas;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -684,7 +684,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Courrier New', Consolas;
+  font-family: 'Courier New', Consolas;
 }
 code {
   padding: 2px 4px;
