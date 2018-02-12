@@ -5,3 +5,4 @@
 /website.publishproj
 *.sln
 /.vs/github.io/v15
+/.vs/config/applicationhost.config
