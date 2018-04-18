@@ -3,42 +3,42 @@
 	<head>
 		<meta charset='utf-8'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="stylesheets/bootstrap.space.mod.css" title="light">
-		<link rel="stylesheet" href="stylesheets/site.css" title="light">
-		<link rel="alt stylesheet" href="stylesheets/219.css" title="dark">
-		<link rel="alt stylesheet" href="stylesheets/219site.css" title="dark">
+		<link rel="stylesheet" href="stylesheets/lux.css" title="light">
+		<link rel="stylesheet" href="stylesheets/luxsite.css" title="light">
+		<link rel="alt stylesheet" href="stylesheets/lux219.css" title="dark">
+		<link rel="alt stylesheet" href="stylesheets/lux219site.css" title="dark">
         <link rel="shortcut icon" href="http://www.iconj.com/icon.php?pid=u8tuc0fwqi" type="image/x-icon" /> 
 		<title>imhall.com</title>
 	</head>
     <body onload="set_style_from_cookie()">
-        <div class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="">{imhall.com}</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="projects.html">projects</a></li>
-                        <li><a href="/RandomRares/">ED Rares</a></li>
-                    </ul>
+                <a class="navbar-brand text-primary" href="http://www.imhall.com">{imhall.com}</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-primary">
+                        <a class="nav-item nav-link text-primary" href="projects.html">projects</a>
+                        <a class="nav-item nav-link text-primary" href="/RandomRares/">Elite Rares</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
 
         <div class="container body-content">
-            <button type="button" onclick="switch_style(this.value)" name="theme" value="light" id="themeSwitcher" class="btn btn-sm btn-default navbar-btn" style="position:fixed; top:50px; right:15px; z-index:9001;"></button>
-            <h2>Hello World</h2>
-            <div class="col-md-12">
-                <div class="panel panel-primary">
-                    <div class="panel-body">
-                        <p class="lead">
-                            Hi I'm Ian.
-                        </p>
+            <button type="button" onclick="switch_style(this.value)" name="theme" value="light" id="themeSwitcher" class="btn btn-sm btn-primary" style="position:fixed; top:115px; right:15px; z-index:9001;"></button>
+            <div class="row">
+                <h2>Hello World</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body bg-dark">
+                            <p class="lead">
+                                Hi I'm Ian.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,11 +47,13 @@
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <p class="text-footer">
-                        <ul class="list-inline">
-                            <li>&copy; 2018 - <a href="http://www.github.com/ian-hall">Ian Hall<img src="images/blacktocat.png"></a></li>
-                        </ul>
-                    </p>
+                    <div clas="col-sm-12">
+                        <p class="text-footer">
+                            <ul class="list-inline">
+                                <li class="text-primary">&copy; 2018 - <a href="http://www.github.com/ian-hall">Ian Hall<img src="http://www.imhall.com/images/blacktocat.png"></a></li>
+                            </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
         </footer>
