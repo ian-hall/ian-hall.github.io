@@ -46,3 +46,7 @@ textarea {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.top-buffer {
+    margin-top: 35px;
+}
