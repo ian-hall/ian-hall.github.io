@@ -6,3 +6,5 @@
 *.sln
 /.vs/github.io/v15
 /.vs/config/applicationhost.config
+/.vs/github.io/config
+/.vs/github.io/v16
